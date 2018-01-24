@@ -49,7 +49,7 @@ image_write(crop, 'teste.png')
 #Upload image
 library(httr)
 
-#Post
+#Post PRECISA COLOCAR O PASSWORD
 req <- POST("http://api.dbcapi.me/api/captcha",
             body = list(
               username  = "pedrobsb",
